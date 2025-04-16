@@ -1,0 +1,28 @@
+public class Turno {
+    private int quantidadeDeRodadas;
+    private int jogosPorRodada;
+
+    public Turno(){
+    }
+
+    public Turno(int quantidadeDeRodadas, int jogosPorRodada){
+        this.quantidadeDeRodadas = quantidadeDeRodadas;
+        this.jogosPorRodada = jogosPorRodada;
+    }
+
+    public int getQuantidadeDeRodadas() {
+        return quantidadeDeRodadas;
+    }
+
+    public void setQuantidadeDeRodadas(int quantidadeDeRodadas) {
+        this.quantidadeDeRodadas = quantidadeDeRodadas;
+    }
+
+    public int getJogosPorRodada() {
+        return jogosPorRodada;
+    }
+
+    public void setJogosPorRodada(int jogosPorRodada) {
+        this.jogosPorRodada = jogosPorRodada;
+    }
+}
